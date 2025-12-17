@@ -28,3 +28,5 @@ jobs:
         push: true
         tags: |
           ghcr.io/kuzakov2004/node-ci-cd-demo:latest
+        labels: |
+          org.opencontainers.image.source=https://github.com/kuzakov2004/node-ci-cd-demo
